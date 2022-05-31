@@ -83,6 +83,16 @@ namespace Future_Real_Estate.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap home_design_photos_22_5a94c65767244 {
+            get {
+                object obj = ResourceManager.GetObject("home-design-photos-22-5a94c65767244", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_expand_arrow_24 {
             get {
                 object obj = ResourceManager.GetObject("icons8-expand-arrow-24", resourceCulture);

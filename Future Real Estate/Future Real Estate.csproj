@@ -89,5 +89,8 @@
   <ItemGroup>
     <None Include="Resources\icons8-expand-arrow-24.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Nueva carpeta\home-design-photos-22-5a94c65767244.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
