@@ -34,19 +34,21 @@
             this.btnFinanciamiento = new System.Windows.Forms.Button();
             this.btnContacto = new System.Windows.Forms.Button();
             this.pMenu = new System.Windows.Forms.Panel();
+            this.btnProperty = new System.Windows.Forms.Button();
             this.pVyA = new System.Windows.Forms.Panel();
             this.btnVenta = new System.Windows.Forms.Button();
             this.btnAlquiler = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.btnProperty = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.pMenu.SuspendLayout();
             this.pVyA.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnInicio
@@ -123,10 +125,29 @@
             this.pMenu.Controls.Add(this.btnProperty);
             this.pMenu.Controls.Add(this.btnInicio);
             this.pMenu.Location = new System.Drawing.Point(-2, 74);
-            this.pMenu.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pMenu.Margin = new System.Windows.Forms.Padding(2);
             this.pMenu.Name = "pMenu";
             this.pMenu.Size = new System.Drawing.Size(1444, 63);
             this.pMenu.TabIndex = 4;
+            // 
+            // btnProperty
+            // 
+            this.btnProperty.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(175)))), ((int)(((byte)(99)))));
+            this.btnProperty.FlatAppearance.BorderSize = 0;
+            this.btnProperty.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnProperty.Font = new System.Drawing.Font("Arial", 13.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnProperty.Image = global::Future_Real_Estate.Properties.Resources.icons8_expand_arrow_24;
+            this.btnProperty.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnProperty.Location = new System.Drawing.Point(177, 0);
+            this.btnProperty.Margin = new System.Windows.Forms.Padding(0);
+            this.btnProperty.Name = "btnProperty";
+            this.btnProperty.Size = new System.Drawing.Size(159, 58);
+            this.btnProperty.TabIndex = 1;
+            this.btnProperty.Text = "Propiedades";
+            this.btnProperty.UseVisualStyleBackColor = false;
+            this.btnProperty.Click += new System.EventHandler(this.btnProperty_Click);
+            this.btnProperty.MouseEnter += new System.EventHandler(this.btnMouseEnter);
+            this.btnProperty.MouseLeave += new System.EventHandler(this.btnMouseLeave);
             // 
             // pVyA
             // 
@@ -134,7 +155,7 @@
             this.pVyA.Controls.Add(this.btnVenta);
             this.pVyA.Controls.Add(this.btnAlquiler);
             this.pVyA.Location = new System.Drawing.Point(182, 141);
-            this.pVyA.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pVyA.Margin = new System.Windows.Forms.Padding(2);
             this.pVyA.Name = "pVyA";
             this.pVyA.Size = new System.Drawing.Size(150, 122);
             this.pVyA.TabIndex = 5;
@@ -206,31 +227,27 @@
             this.pictureBox4.TabIndex = 3;
             this.pictureBox4.TabStop = false;
             // 
-            // btnProperty
-            // 
-            this.btnProperty.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(175)))), ((int)(((byte)(99)))));
-            this.btnProperty.FlatAppearance.BorderSize = 0;
-            this.btnProperty.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnProperty.Font = new System.Drawing.Font("Arial", 13.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnProperty.Image = global::Future_Real_Estate.Properties.Resources.icons8_expand_arrow_24;
-            this.btnProperty.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnProperty.Location = new System.Drawing.Point(177, 0);
-            this.btnProperty.Margin = new System.Windows.Forms.Padding(0);
-            this.btnProperty.Name = "btnProperty";
-            this.btnProperty.Size = new System.Drawing.Size(159, 58);
-            this.btnProperty.TabIndex = 1;
-            this.btnProperty.Text = "Propiedades";
-            this.btnProperty.UseVisualStyleBackColor = false;
-            this.btnProperty.Click += new System.EventHandler(this.btnProperty_Click);
-            this.btnProperty.MouseEnter += new System.EventHandler(this.btnMouseEnter);
-            this.btnProperty.MouseLeave += new System.EventHandler(this.btnMouseLeave);
-            // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.button1);
             this.panel1.Location = new System.Drawing.Point(509, 137);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(376, 374);
             this.panel1.TabIndex = 7;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(82)))), ((int)(((byte)(80)))), ((int)(((byte)(67)))));
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Arial", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button1.Location = new System.Drawing.Point(92, 241);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(212, 59);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Mas información";
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
@@ -244,7 +261,7 @@
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pMenu);
             this.Controls.Add(this.pictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.pMenu.ResumeLayout(false);
@@ -252,6 +269,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -271,6 +289,7 @@
         private System.Windows.Forms.Button btnAlquiler;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button button1;
     }
 }
 
